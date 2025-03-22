@@ -1,36 +1,51 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Converse.Ai
 
-## Getting Started
+This is a multi lingual chatbot where users can chat with characters available and also create characters to chat along with a backstory.
+You can talk in any language and the model will detect the language and give response in the same langauge.
 
-First, run the development server:
+## Features (Frontend)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Multilingual** Chat with multiple language and receive response in the same language.
+2. **Multiple characters** Chat with Multiple characters present in the application.
+3. **Create characters** You can create characters and have conversation with them.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Backend Repository
+- **Repo:** [Contest Tracker Backend](https://github.com/pavanydg/contest_backend)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack Used
+- **Frontend:** Next.js, TailwindCSS, Framer Motion
+- **Backend:** Python, FastApi, Azure services, Mistral model, grok model
+- **Database:** Sqlite
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Usage
 
-## Learn More
+### Frontend Setup
+1. **Clone the repository:**
+   ```sh
+   git clone https://github.com/your-username/frontend.git
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+2. **Install dependencies:**
+   ```sh
+   npm install
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. **Set up environment variables for API keys if necessary.** (Here no keys are needed)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Run the application:**
+   ```sh
+   npm run dev
+   ```
 
-## Deploy on Vercel
+5. **Open in browser:**
+   Visit `http://localhost:3000` to see the frontend in action.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Demo Video
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+https://www.loom.com/share/a66a5350417347c792c0f8513efa69c
+
+## Contributing
+Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) before submitting pull requests.
+
+## License
+This project is licensed under the [MIT License](LICENSE).

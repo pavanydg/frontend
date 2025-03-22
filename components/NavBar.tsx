@@ -11,7 +11,7 @@ export function Navbar() {
             <div className="flex items-center gap-2">
               <Brain className="w-8 h-8 text-purple-500" />
               <span className="text-xl font-bold bg-gradient-to-r from-purple-400 to-pink-500 text-transparent bg-clip-text">
-                AI Characters
+                Converse.AI
               </span>
             </div>
             
