@@ -9,8 +9,6 @@ You can talk in any language and the model will detect the language and give res
 2. **Multiple characters** Chat with Multiple characters present in the application.
 3. **Create characters** You can create characters and have conversation with them.
 
-## Backend Repository
-- **Repo:** [Contest Tracker Backend](https://github.com/pavanydg/contest_backend)
 
 ## Tech Stack Used
 - **Frontend:** Next.js, TailwindCSS, Framer Motion
