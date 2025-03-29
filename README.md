@@ -39,8 +39,7 @@ You can talk in any language and the model will detect the language and give res
    Visit `http://localhost:3000` to see the frontend in action.
 
 ## Demo Video
-
-https://www.loom.com/share/a66a5350417347c792c0f8513efa69c
+https://drive.google.com/file/d/1UH_xBg7CNn8BZzAtqmLRrJV3-iZ3XArL/view?usp=drive_link
 
 ## Contributing
 Contributions are welcome! Please follow the [contribution guidelines](CONTRIBUTING.md) before submitting pull requests.
